@@ -1,0 +1,36 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    font-family: sans-serif;
+background-color:#bf16e5;
+}
+#shape {
+background: red;
+height: 100px;
+position: relative;
+width: 20px;
+}
+#shape:after {
+background: black;
+content: "";
+height: 20px;
+left: -40px;
+position: absolute;
+top: 40px;
+width: 100px;
+}
+.bold {
+    font-weight: bold;
+}
+#quick{
+  height: 40px;
+  margin-top: -18px;
+}
+#time{
+  height: 40px;
+  margin-top: -18px;
+}
+h1{
+text-align: center;
+}
