@@ -23,4 +23,5 @@ test:
 production:
   <<: *default
   adapter: postgresql
+   url: <%= ENV.fetch('DATABASE_URL', '').sub(/^postgres/, "postgis") %>
   database: db/production.sqlite3
