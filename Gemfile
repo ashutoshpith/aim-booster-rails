@@ -49,7 +49,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 gem 'sqlite3'
 end
-gem 'pg'
+
+gem 'pg', group: :production
+gem 'rails_12factor', group: :production
 
 
 group :test do
