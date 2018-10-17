@@ -75,4 +75,4 @@ production:
   <<: *default
   adapter: postgresql
   username: aim-booster-rails
-  password: <%= ENV['AIM_BOOSTER_RAILS_DATABASE_PASSWORD'] %>
+  password: <%= ENV['AIM-BOOSTER-RAILS_DATABASE_PASSWORD'] %>
