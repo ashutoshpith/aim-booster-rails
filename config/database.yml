@@ -74,5 +74,5 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: myapp_production
-  url: <%= ENV['DATABASE_URL'] %>
+  username: aim-booster-rails
+  password: <%= ENV['AIM_BOOSTER_RAILS_DATABASE_PASSWORD'] %>
